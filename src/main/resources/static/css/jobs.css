@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    min-width: 880px;
+    min-height: 100vh;
+    border: 0.1rem solid #7777779a;;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #6A4EA6;
+    margin: 0;
+    padding: 0.5rem;
+    flex: 2;
+    background-color: #ffffff;
+    align-content: center;
+}
+nav {
+    display: flex;
+    box-shadow: 0 0.05rem #9b9b9b33;
+    margin: 0;
+    height: 5rem;
+    align-content: center;
+}
+form {
+    align-content: center;
+}
+button {
+    height: 3rem;
+    background-color: #6A4EA6;
+    color: #fff;
+    border: 0.05rem solid #3a3a3a32;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+}
+.button-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: end;
+}
+.add-button {
+    font-weight: bold;
+    font-size: 1rem;
+    height: 3rem;
+    border: none;
+    background-color: #7c7c7c;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #C84AD9;
+    color: #ffffff;
+}
+.table-container {
+    display: flex;
+    overflow-y: auto; /* Muestra una barra de desplazamiento vertical si es necesario */
+    border-radius: 0.5rem;
+    flex-direction: column;
+    border: 0.1rem solid #b4b4b4a2;
+    max-width: 1000px;
+    margin: auto;
+    margin-top:5rem;
+}
+table {
+    min-width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0.5rem;
+    border-collapse: collapse;
+}
+th {
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0.3rem 1rem;
+    background-color: #ffffff;
+    text-align: start;
+    outline: 0.1rem solid #00000061;
+}
+td {
+    border-bottom: 0.1rem solid #00000019;
+    border-left: 0.1rem solid #b4b4b4a2;
+    padding: 0.3rem 1rem;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #b1b1b1c2;
+}
+a:hover {
+    color: #C84AD9;
+}
+
+.order-container {
+    text-align: center;
+    margin-top: 2rem;
+    height: 3rem;
+}
+.order-container button {
+    border-radius: 0.5rem;
+    border: 0.05rem solid #3a3a3a32;
+}
+
+
+

@@ -1,0 +1,82 @@
+html {
+    background-color: #f7f7f7;;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    max-width: 1500px;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: #6A4EA6;
+}
+
+h2 {
+    font-size: 2rem;
+}
+section {
+    margin-top: 3rem;
+    flex: 1;
+    padding: 6rem;
+    border: 0.1rem solid #eeeeee;
+    border-radius: 0.3rem;
+    gap: 2rem;
+    background-color: #fff;
+}
+.form-container label {
+    display: flex;
+    align-items: center; /* Centrar verticalmente el texto de la etiqueta */
+    
+}
+
+.form-container input {
+    width: 100%; /* Hacer que los campos de entrada ocupen todo el espacio disponible */
+    max-width: 30rem;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    border: 0.1rem solid #868686;
+    box-shadow: 0.1rem 0.1rem #9b9a9a70;
+}
+
+select {
+    width: 10rem;
+    height: 2rem;
+    margin: 2rem;
+}
+
+.form-group {
+    margin: 0.5rem 0;
+}
+
+.errors {
+    color: #ee0000d5;
+}
+
+button {
+    height: 2.4rem;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 0.3rem;
+    background: #6A4EA6;
+}
+
+button:hover {
+    background-color: #C84AD9;
+    color: #fff;
+}
+.errors {
+    color: #ff0000;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
